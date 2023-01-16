@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+.bg{
+    background-image: url(images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90vw;
+    height: 100vh;
+}
+
+.button{
+    transition: 0.4s;
+    display: inline-block;
+	background: #eaeaea;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: 3px solid #aaa;
+    color: #444;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.65);
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button:active{
+    transform: scale(4);
+}
+
+.active{
+    transform: scale(2);
+}
+
+.crash{
+    position: absolute;
+    top: 30vh;
+    left: 1vw;
+}
+
+.ride{
+    position: absolute;
+    top: 45vh;
+    left: 20vw;
+}
+
+.hihato{
+    position: absolute;
+    top: 15vh;
+    left: 79vw;
+}
+
+.floor{
+    position: absolute;
+    top: 82vh;
+    left: 35vw;
+}
+
+.mid{
+    position: absolute;
+    top: 49vh;
+    left: 58vw;
+}
+
+.high{
+    position: absolute;
+    top: 43vh;
+    left: 75vw;
+}
+
+.snare{
+    position: absolute;
+    top: 72vh;
+    left: 64vw;
+}
+
+.kick{
+    position: absolute;
+    top: 80vh;
+    left: 80vw;
+}
+
+audio{
+    display: none;
+}
+
+.how-to{
+    order: 2;
+    background-color: black;
+    width: 10vw;
+}
+
+.how-to h1{
+    color: white;
+    padding: 2rem;
+    width: 100%;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+ul{
+    margin-top: 1rem;
+}
+
+li{
+    display: flex;
+    list-style-type: none;
+}
+
+li p:nth-child(2){
+    color: white;
+}
+
+.how-button{
+    display: inline-block;
+    margin: 0px 1rem 10px;
+	background: #eaeaea;
+    font-size: 1.5em;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    border-radius: 4px;
+    border: 3px solid #aaa;
+    color: #444;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.65);
+}
